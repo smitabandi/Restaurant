@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/responsive.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+   <title>Resturant Website </title>
+</head>
+<body>
+    
+    <!-- nav bar -->
+     <header>
+        <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                 <a href="#Contact"><img src="/img/imagesl.png" alt=" "/></a>
+
+            </div>
+            <nav>
+                <div class="btn">
+                    <i class="fas fa-times close-btn"></i>
+                </div>
+                <li> <a href="#Home">Home </a>  </li>
+                <li> <a href="#Contact">About </a>  </li>
+                <li> <a href="#menu">Menus</a>  </li>
+                
+                <li> <a href="#Reservation">Reservation </a>  </li>
+                <li> <a href="#Contact">Contact </a>  </li>
+            </nav>
+            <div class="btn">
+                <i class="fas fa-bars menu-btn"></i>
+            </div>
+        </div>
+    </div>
+     </header>
+     <!-- navbar complete -->
+     <!-- showcase -->
+     <section id="Home">
+      <main id="showcase">
+        <div class="container">
+            <div class="content">
+            <img src="./img/imagesl.png" alt="img"/>
+            <h2>Surprise your plate</h2>
+            <h3>Fine Food+Drinks</h3>
+        </div>
+        </div>
+      </main>
+      </section>
+      <!-- special offer -->
+       <aside id="sp_offer">
+    <div class="container">
+        <div class="sp_content">
+            <div class="left_side_content">
+                <div class="headings">
+                    <h3>From The Menu</h3>
+                    <h2>SPECIAL OFFERS</h2>
+                </div>
+                <div class="imgs_content">
+                    <div class="imgs">
+                        <img src="./img/pasta.jpg" alt="img">
+                        <div class="content_for_img">
+                            <h4>White Sauce Pasta</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam aliquid culpa esse consequatur voluptatum tempora?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>RS.100</p>
+                    </div>
+                </div>
+
+
+                <!-- 2 offer -->
+                <div class="imgs_content">
+                    <div class="imgs">
+                        <img src="./img/meal.avif" alt="img">
+                        <div class="content_for_img">
+                            <h4>Meal</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam aliquid culpa esse consequatur voluptatum tempora?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>RS.250</p>
+                    </div>
+                </div>
+                <!-- 3 offer  -->
+                <div class="imgs_content">
+                    <div class="imgs">
+                        <img src="./img/briyani.jpeg" alt="img">
+                        <div class="content_for_img">
+                            <h4>Chicken Nizami Biryani</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam aliquid culpa esse consequatur voluptatum tempora?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>RS.200</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right_side_content">
+                <div class="img_right_side">
+                    <img src="./img/allfood.jpg" alt=""/>
+                    <div class="over_img">
+                        <a href="#menu"><h2>Menus</h2></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+       </aside>
+       <!-- reservation page -->
+       <section id="Reservation">
+        <div id="reservation_tbl">
+            <div class="container">
+                <div class="form_data">
+                    <h3 class="normal_heading">Book Your Table</h3>
+                    <h2 class="main_heading">Now..</h2>
+                    <form id="bookingForm">
+                        <input type="text" id="name" placeholder="Name"/>
+                        <input type="text"  id="contact" placeholder="Contact"/>
+                        <input type="email"  id="email" placeholder="Email"/>
+                        <input type="number"  id="noofppl" placeholder="No of people"/>
+                        <input type="date"   id="date" placeholder="Date"/>
+                        <input type="time"   id="time" placeholder="Time"/>
+                        <textarea  id="instructions"
+                          name="" 
+                          id=""
+                          cols="10"
+                          rows="10"
+                        placeholder="Special instructions if any"
+                        ></textarea>
+                        <button type="button" id="bookButton"> Book</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- todays deal -->
+         <div id="deal_today">
+            <div class="container swiper mySwiper">
+                <h3 class="normal_heading-1">Deal Today</h3>
+                <h2 class="main_heading">TODAY SPECIAL DISH</h2>
+                <div class="card_content swiper-wrapper">
+                    <div class="cards swiper-slide">
+                        <img src="./img/pasta.jpg" alt=""/>
+                        <h4> White Sauce Pasta</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolores corrupti voluptas ipsa velit voluptatibus eum quis quod magnam. Eaque corrupti incidunt ipsum, nemo molestiae perspiciatis ea laudantium qui nesciunt?</p>
+                        <p class="price">Only Rs 100/-</p>
+                    </div>
+                    <div class="cards swiper-slide">
+                        <img src="./img/briyani.jpeg" alt=""/>
+                        <h4> Chicken Briyani</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolores corrupti voluptas ipsa velit voluptatibus eum quis quod magnam. Eaque corrupti incidunt ipsum, nemo molestiae perspiciatis ea laudantium qui nesciunt?</p>
+                        <p class="price">Only Rs 200/-</p>
+                    </div>
+                    <div class="cards swiper-slide">
+                        <img src="./img/meal.avif" alt=""/>
+                        <h4> BUrger-Fries-Coke</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolores corrupti voluptas ipsa velit voluptatibus eum quis quod magnam. Eaque corrupti incidunt ipsum, nemo molestiae perspiciatis ea laudantium qui nesciunt?</p>
+                        <p class="price">Only Rs 250/-</p>
+                    </div>
+                    <div class="cards swiper-slide">
+                        <img src="./img/pasta.jpg" alt=""/>
+                        <h4> White Sauce Pasta</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolores corrupti voluptas ipsa velit voluptatibus eum quis quod magnam. Eaque corrupti incidunt ipsum, nemo molestiae perspiciatis ea laudantium qui nesciunt?</p>
+                        <p class="price">Only Rs 100/-</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+         </div>
+
+
+<!-- food lover -->
+ <section id="menu">
+ <div id="food_lover">
+ <div class="container">
+    <h3 class="normal_heading-1">Right place for every foodie</h3>
+    <h2 class="main_heading">RESTURANT MENU</h2>
+    <div class="food_lover_container">
+        <div class="btn_container">
+            <button type="button" class="btn-cat active_btn" data-id="All">All Dishes</button>
+            <button type="button" class="btn-cat" data-id="Dinner">Dinner</button>
+            <button type="button" class="btn-cat" data-id="Lunch">Lunch</button>
+            <button type="button" class="btn-cat" data-id="Drinks">Drinks</button>
+            <button type="button" class="btn-cat" data-id="Starter">Starter</button>
+            
+        </div>
+        <div class="menus_items_container">
+            <div class="img_cards">
+                <img src="/img/food9.jpeg" alt=""/>
+                <p class="price">Only for Rs 100</p>
+                <p>Chicken and Cashwes</p>
+            </div>
+            <div class="img_cards">
+                <img src="/img/drink2.jpeg" alt=""/>
+                <p class="price">Only for Rs 100</p>
+                <p>Chicken and Cashwes</p>
+            </div>
+            <div class="img_cards">
+                <img src="/img/drink1.webp" alt=""/>
+                <p class="price">Only for Rs 100</p>
+                <p>Chicken and Cashwes</p>
+            </div>
+            <div class="img_cards">
+                <img src="/img/food8.jpg" alt=""/>
+                <p class="price">Only for Rs 100</p>
+                <p>Chicken and Cashwes</p>
+            </div>
+            <div class="img_cards">
+                <img src="/img/food7.jpg" alt=""/>
+                <p class="price">Only for Rs 100</p>
+                <p>Chicken and Cashwes</p>
+            </div>
+            <div class="img_cards">
+                <img src="/img/food4.webp" alt=""/>
+                <p class="price">Only for Rs 100</p>
+                <p>Chicken and Cashwes</p>
+            </div>
+           
+            <div class="img_cards">
+                <img src="/img/food3.jpeg" alt=""/>
+                <p class="price">Only for Rs 100</p>
+                <p>Chicken and Cashwes</p>
+            </div>
+            <div class="img_cards">
+                <img src="/img/food1.jpeg" alt=""/>
+                <p class="price">Only for Rs 100</p>
+                <p>Chicken and Cashwes</p>
+            </div>
+            <div class="img_cards">
+                <img src="/img/food2.jpg" alt=""/>
+                <p class="price">Only for Rs 100</p>
+                <p>Chicken and Cashwes</p>
+            </div>
+        </div>
+    </div>
+ </div>
+</div>
+
+</section>
+<!-- customer feedback -->
+ <div id="customer_feedback">
+    <div class="container swiper mySwiper">
+        <h3 class="normal_heading-1">Foodie</h3>
+            <h2 class="main_heading" style="color: white;">Customer Feedback</h2>
+<div class="customer_cards_container swiper-wrapper">
+    <div class="customer_card swiper-slide">
+    <img src="/img/customer4.jpeg" alt=""/>
+    <p>Lorem ipsum eniti li voluptatibus totam tenetur eos, ducimus amet perspiciatis ad voluptatem? Officiis voluptatem consequuntur quas molestias aliquam, adipisci, nesciunt quam deserunt inventore voluptas cupiditate velit ducimus maxime. Voluptates, expedita?
+    </p>
+    <p class="name">ABCDE</p>
+
+</div>
+       
+<div class="customer_card swiper-slide">
+    <img src="/img/customer1.jpeg" alt=""/>
+    <p>Lorem ipsum eniti li voluptatibus totam tenetur eos, ducimus amet perspiciatis ad voluptatem? Officiis voluptatem consequuntur quas molestias aliquam, adipisci, nesciunt quam deserunt inventore voluptas cupiditate velit ducimus maxime. Voluptates, expedita?
+    </p>
+    <p class="name">ABCDE</p>
+
+</div>
+<div class="customer_card swiper-slide">
+    <img src="/img/customer2.jpeg" alt=""/>
+    <p>Lorem ipsum eniti li voluptatibus totam tenetur eos, ducimus amet perspiciatis ad voluptatem? Officiis voluptatem consequuntur quas molestias aliquam, adipisci, nesciunt quam deserunt inventore voluptas cupiditate velit ducimus maxime. Voluptates, expedita?
+    </p>
+    <p class="name">ABCDE</p>
+
+</div>
+<div class="customer_card swiper-slide">
+    <img src="/img/customer3.jpeg" alt=""/>
+    <p>Lorem ipsum eniti li voluptatibus totam tenetur eos, ducimus amet perspiciatis ad voluptatem? Officiis voluptatem consequuntur quas molestias aliquam, adipisci, nesciunt quam deserunt inventore voluptas cupiditate velit ducimus maxime. Voluptates, expedita?
+    </p>
+    <p class="name">ABCDE</p>
+
+</div>
+</div>   
+<div class="swiper-pagination"></div>
+    </div>
+ </div>
+         <!-- static counter start -->
+<section id="static_counter">
+    <div class="container">
+        <div class="counters">
+            <div class="counter">
+                <div class="num" data-ceil="291">
+                    291</div>
+                    <h2>Best Dishes</h2>
+                
+                </div>
+                <div class="counter">
+                    <div class="num" data-ceil="50">
+                        50</div>
+                        <h2>Awards Won</h2>
+                    
+                </div>
+                    <div class="counter">
+                        <div class="num" data-ceil="53">
+                            30</div>
+                            <h2>Our Chefs</h2>
+                        
+                    </div>
+                        <div class="counter">
+                            <div class="num" data-ceil="250">
+                                250</div>
+                                <h2>Daily Customers</h2>
+                            
+                        </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- chef start -->
+     <div id="chef">
+        <div class="container swiper mySwiper" id="swiper">
+            <!-- <h2 class="justheading" co>"If you are a chef, no matter how good a chef you are, it’s not good cooking for yourself; the joy is in cooking for others. It’s the same with music.”</h2> -->
+            <h3 class="noraml_heading-2" style="text-align: center; color: palevioletred;">Our Chef Team</h3>
+            <h2 class="main_heading-1">BEST CHEFS FOR YOU</h2>
+        <div class="chef_container swiper-wrapper">
+              <!-- chef 1 -->
+            <div class="chef_cards swiper-slide">
+                <img src="/img/chef1.jpg" alt="">
+                <div class="chef_content">
+                    <h2>Rahul Mehta</h2>
+                    <p class="position">Senior Chef1</p>
+                </div>
+            </div>
+              <!-- chef 2 -->
+            <div class="chef_cards swiper-slide ">
+                <img src="./img/chef3.jpeg" alt="">
+                <div class="chef_content">
+                    <h2>Nikita Gandhi</h2>
+                    <p class="position">Senior Chef2</p>
+                </div>
+            </div>
+            <!-- chef 3 -->
+            <div class="chef_cards swiper-slide">
+                <img src="./img/chef2.jpg" alt="">
+                <div class="chef_content">
+                    <h2>Pillai</h2>
+                    <p class="position">Senior Chef3</p>
+                </div>
+            </div>
+             <!-- chef 3 -->
+             <div class="chef_cards swiper-slide">
+                <img src="./img/chef2.jpg" alt="">
+                <div class="chef_content">
+                    <h2>Pillai</h2>
+                    <p class="position">Senior Chef3</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        </div>
+       
+     </div>
+<!-- footer -->
+<section id="Contact">
+    <div id="footer">
+<div class="container">
+    <div class="footer_container">
+        <div class="about_us">
+            <h2><img src="/img/imagesl.png" alt=""/></h2>
+            <p><b>About us </b> : Lorem ipsum dolor,  elit. Consequuntur eaque temporibus beatae lauda, repellendus eos mollitia soluta saepe doloribus. Aspernatur dolor, assumenda quisquam aliquam iure labore explicabo.</p>
+     
+        </div>
+            <div class="opening_hours">
+                <h2> Opening Hours </h2>
+                <p class="day">MON-FRI :<span> 10.00 AM To 9.00 PM</span></p>
+                <p class="day">SAT-SUN :<span> 10.00 AM To 12.00 PM</span></p>
+            </div>
+                <div class="contact_us">
+
+                <h2>Contact Us</h2>
+                <h3>GET IN TOUCH</h3>
+                <p>+91-9864763864</p>
+                <p class="add">Add: xyz street lane no:2 pimpri chinchwad pune 411038</p>
+     <p class="email">Email: </p>
+       <p> HruchaDinning@gmail.com
+     </p>
+            </div>
+    </div>
+</div>
+    </div>
+
+
+
+
+   
+ </section>
+
+ <footer>
+    <div class="container">
+        <p>Copyright 2024 &copy; Made with Love</p>
+    </div>
+ </footer>
+        </body>
+<script src="js/script.js"></script>
+</html>
