@@ -13,3 +13,4 @@ Technologies Used
 HTML: For the website structure.
 CSS: For styling and responsiveness.
 JavaScript: For dynamic elements, such as the static counter and interactive sliders.
+link:https://placeforfoodies.netlify.app/
