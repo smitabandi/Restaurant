@@ -12,7 +12,7 @@ Welcome to the Restaurant Website repository! This project features a modern, re
 
 **Customer Feedback:** A dedicated feedback section allows users to leave and view reviews, enhancing customer interaction.
 
-**Static Counter: The website features a counter displaying the number of dishes, chefs, and awards won by the restaurant, which updates on each page refresh.
+**Static Counter:** The website features a counter displaying the number of dishes, chefs, and awards won by the restaurant, which updates on each page refresh.
 
 **Technologies Used**
 HTML: For the website structure.
