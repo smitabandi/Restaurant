@@ -10,7 +10,7 @@ Welcome to the Restaurant Website repository! This project features a modern, re
 
 **Reservation System:** Users can easily book a table through a well-designed reservation form, selecting the date, time, and number of guests.
 
-**Customer Feedback:** A dedicated feedback section allows users to leave and view reviews, enhancing customer interaction.
+**Customer Feedback:** A dedicated feedback section allows users to  view reviews, enhancing customer interaction.
 
 **Static Counter:** The website features a counter displaying the number of dishes, chefs, and awards won by the restaurant, which updates on each page refresh.
 
